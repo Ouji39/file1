@@ -1,0 +1,78 @@
+#file2
+
+import java.util.*;
+
+ class Dcoder
+
+  {
+
+     public static void Result()
+
+        {
+
+              Scanner sc = new Scanner(System.in);
+
+                   int[] x= new int[4];
+
+                        int sum = 0;
+
+                             int add = 0;
+
+                                  int multiple = 1;
+
+                                       for(int i=1;i<4;i++)
+
+                                            {
+
+     System.out.println("Enter the number "+i);
+
+          x[i] = sc.nextInt();
+
+               sum = sum + (x[i]*x[i]);
+
+                    multiple = multiple * x[i];
+
+                         add = add + x[i];
+
+                            }
+
+                               System.out.println("Press 1 for Add");
+
+                                  System.out.println("Press 2 for Square Sum");
+
+                                     System.out.println("Press 3 for Multiply");
+
+                                        int y = sc.nextInt();
+
+                                           if(y==1){
+
+                                                System.out.println("Sum of given numbers is: "+add);
+
+                                                   }
+
+                                                      if(y==2){
+
+                                                           System.out.println("Sum of Squares of given numbers is: "+sum);
+
+                                                              }
+
+                                                                 if(y==3){
+
+                                                                      System.out.println("Product of given numbers is: "+multiple);
+
+                                                                         }
+
+                                                                            }
+
+                                                                               public static void main(String args[])
+
+                                                                                  { 
+
+                                                                                      Result();
+
+                                                                                         }
+
+                                                                                          }
+
+                                                                                          
+
