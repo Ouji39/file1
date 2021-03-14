@@ -1,0 +1,61 @@
+file1
+
+import java.util.Scanner;
+
+public class Method{
+
+public static void main(String[]args){
+
+Scanner sc = new Scanner (System.in);
+
+System.out.print("Enter a : ");
+
+int a = sc.nextInt();
+
+System.out.print("Enter b : ");
+
+int b = sc.nextInt();
+
+int add = add(a , b );
+
+int sub = sub(a, b);
+
+int mul = mul(a,b);
+
+int mod = mod(a, b);
+
+System.out.println("Sum Of Two Number are : " +add);
+
+System.out.println("Substaction of Two Numbee are : " + sub);
+
+System.out.println("Multipication of Two Number are "+mul);
+
+System.out.println("Modlus "+mod);
+
+}
+
+static int add(int a , int b){
+
+return a+b; 
+
+}
+
+static int sub( int a , int b){
+
+return a-b;
+
+}
+
+static int mul(int a , int b){
+
+return a*b;
+
+}
+
+static int mod (int a , int b){
+
+return a%b;
+
+} 
+
+}
