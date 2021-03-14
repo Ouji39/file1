@@ -1,0 +1,29 @@
+#file3
+
+import java.util.*;
+
+ 
+ class Name{
+   public static   String name;
+   public void GetName(){
+   Scanner sc =new Scanner(System.in);
+   System.out.print(" What is your Name: ");
+      name = sc.next();
+         }
+ public void  ShowName(){
+   System.out.println("Your Name is : " +name); 
+    }
+}
+
+ class Ouji
+  {
+     public static void main(String args[])
+        { 
+             String name;
+    System.out.println("Hello, Visitor!");
+    Name gn = new Name();
+    Name shn = new Name();
+    gn.GetName();
+        shn.ShowName();
+   }
+    }
